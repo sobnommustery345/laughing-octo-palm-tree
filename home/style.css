@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 100px 0 200px;
+  padding: 0 55px 0 50px;
   margin: 0;
   text-decoration: none;
   clip-path: polygon(0 0, 100% 0, calc(100% - 18px) 100%, 0 100%);
