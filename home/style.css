@@ -35,22 +35,17 @@ body {
 }
 
 /* =========================================
-   বামপাশ: বাঁকানো লোগো
+   বামপাশ: ইমেজ লোগোর জন্য অ্যাডজাস্ট করা বক্স
 ========================================= */
 .logo-box {
   height: 100%;
   background: #DDF930;
-  color: #111111;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 50px 0 28px;
+  padding: 0 42px 0 24px;
   margin: 0 0 0 20px;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: 800;
-  font-style: italic;
-  letter-spacing: -0.5px;
   clip-path: polygon(0 0, 100% 0, calc(100% - 18px) 100%, 0 100%);
   transition: background 0.25s ease;
   flex-shrink: 0;
@@ -58,6 +53,15 @@ body {
 
 .logo-box:hover {
   background: #e6ff47;
+}
+
+/* লোগো ইমেজ সাইজ ও অ্যাডজাস্টমেন্ট */
+.logo-img {
+  height: 48px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+  display: block;
 }
 
 /* =========================================
@@ -279,7 +283,6 @@ body {
   background: #111111;
 }
 
-/* হ্যামবার্গার ক্লিক করলে X চিহ্নে রূপ নেবে */
 .hamburger-btn.active span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
@@ -413,7 +416,6 @@ body {
   box-shadow: 0 0 8px #FF3B30;
 }
 
-/* মোবাইল Explore অ্যাকর্ডিয়ন বাটন */
 .mobile-explore-btn.active {
   background: #DDF930;
   color: #111111;
@@ -462,8 +464,8 @@ body {
    RESPONSIVE BREAKPOINTS (ট্যাবলেট ও ফোন)
 ========================================= */
 
-/* ট্যাবলেট ও ছোট ল্যাপটপ (992px বা তার নিচে) */
-@media (max-width: 992px) {
+/* ট্যাবলেট ও ছোট ল্যাপটপ (900px বা তার নিচে) */
+@media (max-width: 900px) {
   .nav-links {
     display: none;
   }
@@ -489,9 +491,14 @@ body {
   }
 
   .logo-box {
-    padding: 0 32px 0 18px;
-    font-size: 18.5px;
+    padding: 0 28px 0 16px;
+    margin: 0 0 0 10px;
     clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+  }
+
+  .logo-img {
+    height: 36px;
+    max-width: 135px;
   }
 
   .right-controls {
