@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- ফোনে রেসপনসিভ হ্যামবার্গার মেনু দেখার জন্য এটি স্ট্যান্ডার্ড রাখুন (পিসি প্রিভিউ টেস্ট করতে চাইলে সাময়িকভাবে width=1280 দেবেন) -->
   <meta name="viewport" content="width=1280">
-  <title>PINTREND — Responsive Pinterest Blog Navbar</title>
+  <title>TrendMana — Viral Trends &amp; Curated Finds</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
   <!-- CSS ফাইল লিংক -->
   <link rel="stylesheet" href="home/style.css">
@@ -13,8 +14,10 @@
   <!-- 100% Full-Width Responsive Glass Navbar -->
   <nav class="navbar">
 
-    <!-- বামপাশ: বাঁকানো লোগো -->
-    <a href="index.html" class="logo-box">PINTREND</a>
+    <!-- বামপাশ: ইমেজ ট্যাগসহ ব্র্যান্ড লোগো (home ফোল্ডারে আপনার logo.png রাখবেন) -->
+    <a href="index.html" class="logo-box">
+      <img src="home/TrendMana-logo.png" alt="TrendMana Logo" class="logo-img">
+    </a>
 
     <!-- মাঝখান: পিসি মেনু লিংক -->
     <ul class="nav-links">
@@ -66,7 +69,7 @@
         </button>
 
         <div class="search-popup" id="searchPopup">
-          <input type="text" id="searchInput" placeholder="Search Pinterest trends...">
+          <input type="text" id="searchInput" placeholder="Search any trend...">
         </div>
       </div>
 
@@ -83,7 +86,7 @@
   <!-- ট্যাবলেট ও ফোনের স্লাইড-ডাউন হ্যামবার্গার মেনু -->
   <div class="mobile-menu" id="mobileMenu">
     <ul class="mobile-nav-list">
-      <li><a href="#" class="mobile-nav-link">Home</a></li>
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
 
       <li>
         <a href="#" class="mobile-nav-link">
