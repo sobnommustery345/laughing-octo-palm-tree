@@ -475,6 +475,10 @@ body {
     display: flex;
   }
 
+  .search-icon-btn {
+    margin: 0;
+  }
+
   .mobile-menu {
     display: block;
   }
