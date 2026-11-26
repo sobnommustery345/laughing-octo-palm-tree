@@ -475,10 +475,6 @@ body {
     display: flex;
   }
 
-  .search-icon-btn {
-    margin: 0;
-  }
-
   .mobile-menu {
     display: block;
   }
@@ -514,6 +510,7 @@ body {
   .hamburger-btn {
     width: 40px;
     height: 40px;
+    margin: 0 0 0 0;
   }
 
   .mobile-menu {
