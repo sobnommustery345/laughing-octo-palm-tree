@@ -239,6 +239,7 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: all 0.25s ease;
+  margin: 0 20px 0 0;
 }
 
 .search-icon-btn svg {
